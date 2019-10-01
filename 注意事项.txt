@@ -1,0 +1,10 @@
+1 git clone + ssh
+2 vue cli init webpack + 项目名称
+3 cnpm install node-sass@latest （如果安装 node-sass(安装不成功的时候，卸载原来的，https://www.cnblogs.com/blucesun/p/11463426.html)）
+4 在index.html里面加入minimum-scale=1.0, maximum-scale=1.0, user-scalable=no
+5 在src/asset/styles, 加入 reset.css 和 border.css
+6 下载animate.css动画库 https://daneden.github.io/animate.css/?
+7 npm install vue-awesome-swiper --save
+8 npm i vue-axios
+9 npm i element-ui -S
+10 npm i mint-ui -S
