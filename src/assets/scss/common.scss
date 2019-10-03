@@ -1,0 +1,18 @@
+@mixin top {
+    margin-top: 40px;
+}
+
+@mixin flex($direction:column,$inline:block) {
+    display: if($inline==block,flex,inline-flex);
+    flex-direction: $direction;
+    flex-wrap: wrap;
+}
+
+@mixin panel($height:112px,$bgcolor:#f3f3f3,$margin:20px) {
+    background-color: $bgcolor;
+    margin-top: $margin;
+    height: $height;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}

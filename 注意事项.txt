@@ -8,3 +8,7 @@
 8 npm i vue-axios
 9 npm i element-ui -S
 10 npm i mint-ui -S
+11(import './assets/styles/reset.css'
+import './assets/styles/border.css'
+import './assets/styles/animate.css')
+12 使用 mint-ui 的 swipe 时，要规定高度和宽度，才会显现出来
