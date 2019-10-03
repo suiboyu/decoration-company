@@ -1,43 +1,15 @@
 <template>
   <div class="content">
     <headline :ti="'装修流程'"></headline>
-<mt-tabbar class="mt-tabbar">
-  <mt-tab-item id="外卖" class="mt-tab-item">
-    <div class="circle">
-        <span class="iconfont">&#xe612;</span>
-        <i class="iconfont ">&#xe62e;</i>
-    </div>
-    在线预约
-  </mt-tab-item>
-  <mt-tab-item id="订单" class="mt-tab-item">
-    <div class="circle">
-        <span class="iconfont">&#xe605;</span>
-        <i class="iconfont ">&#xe62e;</i>
-    </div>
-    预约测量
-  </mt-tab-item>
-  <mt-tab-item id="发现" class="mt-tab-item">
-    <div class="circle">
-        <span class="iconfont">&#xe607;</span>
-        <i class="iconfont ">&#xe62e;</i>
-    </div>
-    设计方案
-  </mt-tab-item>
-  <mt-tab-item id="我的" class="mt-tab-item">
-    <div class="circle">
-        <span class="iconfont">&#xe6db;</span>
-        <i class="iconfont ">&#xe62e;</i>
-    </div>
-    签订合同
-  </mt-tab-item>
-  <mt-tab-item id="我的" class="mt-tab-item">
-    <div class="circle">
-        <span class="iconfont">&#xe616;</span>
-        <i class="iconfont ">&#xe62e;</i>
-    </div>
-    施工验收
-  </mt-tab-item>
-</mt-tabbar>
+    <mt-tabbar class="mt-tabbar">
+      <mt-tab-item class="mt-tab-item" v-for="list in flow" :key="list.id">
+        <div class="circle">
+          <span class="iconfont"> {{list.iconfont}} </span>
+          <i class="iconfont ">&#xe62e;</i>
+        </div>
+        {{ list.name }}
+      </mt-tab-item>
+    </mt-tabbar>
   </div>
 </template>
 
@@ -45,6 +17,9 @@
 import headline from '../../../public/title'
 export default {
   name: 'HomeFlow',
+  props: {
+    flow: Array
+  },
   components: {
     headline
   }

@@ -1,6 +1,18 @@
 {
     "ret": true,
     "data": {
+        "HomeSwiper": [
+            {
+               "id": 1,
+               "imgurl": "//img.zcool.cn/community/01db205d916802a8012060be4e569d.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+               "id": 2,
+               "imgurl": "//img.zcool.cn/community/01a3be5d916802a801211d536d69fc.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+               "id": 3,
+               "imgurl": "//img.zcool.cn/community/01562d5d916802a8012060bef16922.jpg@1280w_1l_2o_100sh.jpg"
+            }
+         ],
         "HomeColumn": [
             {
                "id": 1,
@@ -9,32 +21,195 @@
             }, {
                 "id": 2,
                 "iconfont": "\ue6db" ,
-                "title": "免费报价"
-             }, {
-                "id": 3,
-                "iconfont": "\ue61e" ,
-                "title": "免费报价"
-             }, {
-                "id": 4,
-                "iconfont": "\ue60d" ,
-                "title": "免费报价"
-             }, {
-                "id": 5,
-                "iconfont": "\ue68a" ,
-                "title": "免费报价"
-             }, {
-                "id": 6,
-                "iconfont": "\ue600" ,
-                "title": "免费报价"
-             }, {
-                "id": 7,
-                "iconfont": "\ue602" ,
-                "title": "免费报价"
-             }, {
-                "id": 8,
-                "iconfont": "\ue64f" ,
-                "title": "免费报价"
-             }
+                "title": "免费设计"
+            }, {
+               "id": 3,
+               "iconfont": "\ue61e" ,
+               "title": "效果图"
+            }, {
+               "id": 4,
+               "iconfont": "\ue60d" ,
+               "title": "参观工地"
+            }, {
+               "id": 5,
+               "iconfont": "\ue68a" ,
+               "title": "设计团队"
+            }, {
+               "id": 6,
+               "iconfont": "\ue600" ,
+               "title": "德系精工"
+            }, {
+               "id": 7,
+               "iconfont": "\ue602" ,
+               "title": "实景工地"
+            }, {
+               "id": 8,
+               "iconfont": "\ue64f" ,
+               "title": "关于我们"
+            }
+        ],
+        "HomeFourImg": [
+            {
+               "id": 1,
+               "imgurl": "//img.zcool.cn/community/01fe045d916fcba801211d5370bf60.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+               "id": 2,
+               "imgurl": "//img.zcool.cn/community/01fe045d916fcba801211d5370bf60.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+               "id": 3,
+               "imgurl": "//img.zcool.cn/community/01fe045d916fcba801211d5370bf60.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+               "id": 4,
+               "imgurl": "//img.zcool.cn/community/01fe045d916fcba801211d5370bf60.jpg@1280w_1l_2o_100sh.jpg"
+            }
+        ],
+        "DesignSketchImg": [
+            {
+               "id": 1,
+               "imgurl": "//img.zcool.cn/community/01cb195d8b201ca8012060be772b86.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波"
+            }, {
+               "id": 2,
+               "imgurl": "//img.zcool.cn/community/013e6b5d8b201ca801211d53e0907c.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波"
+            }, {
+               "id": 3,
+               "imgurl": "//img.zcool.cn/community/0132705d8b201ba801211d535a2a52.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波"
+            }, {
+               "id": 4,
+               "imgurl": "//img.zcool.cn/community/01aa9f5d8b201ca8012060be1297e6.png@1280w_1l_2o_100sh.png",
+               "name": "徐波"
+            }, {
+               "id": 5,
+               "imgurl": "//img.zcool.cn/community/01a4265d8b201fa8012060be7cb15a.png@1280w_1l_2o_100sh.png",
+               "name": "徐波"
+            }, {
+               "id": 6,
+               "imgurl": "//img.zcool.cn/community/0116b65d8ad4c2a8012060be307ebd.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波"
+            }, {
+               "id": 7,
+               "imgurl": "//img.zcool.cn/community/01e3365d8824cea801211d5357951d.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波"
+            }, {
+               "id": 8,
+               "imgurl": "//img.zcool.cn/community/010bbc5d8ad4c2a801211d53133427.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波"
+            }, {
+               "id": 9,
+               "imgurl": "//img.zcool.cn/community/01a4265d8b201fa8012060be7cb15a.png@1280w_1l_2o_100sh.png",
+               "name": "徐波"
+            }, {
+               "id": 10,
+               "imgurl": "//img.zcool.cn/community/01e3365d8824cea801211d5357951d.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波"
+            }
+        ],
+        "DesignSketchIcon": [
+            {
+               "id": 1,
+               "iconfont": "\ue6a0",
+               "name": "客厅"
+            }, {
+               "id": 2,
+               "iconfont": "\ue603",
+               "name": "客厅"
+            }, {
+               "id": 3,
+               "iconfont": "\ue61f",
+               "name": "客厅"
+            }, {
+               "id": 4,
+               "iconfont": "\ue605",
+               "name": "客厅"
+            }, {
+               "id": 5,
+               "iconfont": "\ue607",
+               "name": "客厅"
+            }
+        ],
+        "DesignTeam": [
+            {
+               "id": 1,
+               "imgurl": "//img.zcool.cn/community/0155505d916c79a801211d53ef011c.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波",
+               "engineer": "高级设计师"
+            }, {
+               "id": 2,
+               "imgurl": "//img.zcool.cn/community/0194145d916b79a8012060beffbd08.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波",
+               "engineer": "高级设计师"
+            }, {
+               "id": 3,
+               "imgurl": "//img.zcool.cn/community/0194145d916b79a8012060beffbd08.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波",
+               "engineer": "高级设计师"
+            }, {
+               "id": 4,
+               "imgurl": "//img.zcool.cn/community/01e6d45d916802a801211d5350a307.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波",
+               "engineer": "高级设计师"
+            }, {
+               "id": 5,
+               "imgurl": "//img.zcool.cn/community/0182495d916802a801211d53a10bc4.jpg@1280w_1l_2o_100sh.jpg",
+               "name": "徐波",
+               "engineer": "高级设计师"
+            }
+        ],
+        "HomeFlow": [
+            {
+               "id": 1,
+               "iconfont": "\ue612",
+               "name": "在线预约"
+            }, {
+               "id": 2,
+               "iconfont": "\ue605",
+               "name": "预约测量"
+            }, {
+               "id": 3,
+               "iconfont": "\ue607",
+               "name": "设计方案"
+            }, {
+               "id": 4,
+               "iconfont": "\ue6db",
+               "name": "签订合同"
+            }, {
+               "id": 5,
+               "iconfont": "\ue616",
+               "name": "施工验收"
+            }
+        ],
+        "HomeStory": [
+            {
+               "id": 1,
+               "imgurl": "//img.zcool.cn/community/01f5085d8ab168a801211d53bb4660.jpg@1280w_1l_2o_100sh.jpg",
+               "desc": "一个老业主东风湖发的红包近段时间"
+            }, {
+               "id": 2,
+               "imgurl": "//img.zcool.cn/community/01c8d25d8ab168a8012060be63c057.jpg@1280w_1l_2o_100sh.jpg",
+               "desc": "一个老业主东风湖发的红包近段时间"
+            }, {
+               "id": 3,
+               "imgurl": "//img.zcool.cn/community/014e1c5d8ab168a8012060be2d3f81.jpg@1280w_1l_2o_100sh.jpg",
+               "desc": "一个老业主东风湖发的红包近段时间"
+            }, {
+               "id": 4,
+               "imgurl": "//img.zcool.cn/community/01bbdb5d8ab168a801211d53d48a56.jpg@1280w_1l_2o_100sh.jpg",
+               "desc": "一个老业主东风湖发的红包近段时间"
+            }, {
+               "id": 5,
+               "imgurl": "//img.zcool.cn/community/01c8d25d8ab168a8012060be63c057.jpg@1280w_1l_2o_100sh.jpg",
+               "desc": "一个老业主东风湖发的红包近段时间"
+            }, {
+               "id": 6,
+               "imgurl": "//img.zcool.cn/community/01c8d25d8ab168a8012060be63c057.jpg@1280w_1l_2o_100sh.jpg",
+               "desc": "一个老业主东风湖发的红包近段时间"
+            }, {
+               "id": 7,
+               "imgurl": "//img.zcool.cn/community/01c8d25d8ab168a8012060be63c057.jpg@1280w_1l_2o_100sh.jpg",
+               "desc": "一个老业主东风湖发的红包近段时间"
+            }
         ]
     }
 }

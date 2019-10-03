@@ -2,26 +2,13 @@
   <div class="content">
    <headline :ti="'设计团队'" :tit="'金案设计  私人订制'" :titl="'MORE'"></headline>
    <swiper :options="swiperOption">
-      <swiper-slide class="slide">
-        <img src="//img.zcool.cn/community/0155505d916c79a801211d53ef011c.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="150px">
+      <swiper-slide class="slide" v-for="list in team" :key="list.id">
+        <img :src="list.imgurl" width="100%" height="150px">
         <div class="bottom">
-            <p>徐波</p>
-            <p>高级设计师</p>
+            <p> {{list.name}} </p>
+            <p> {{list.engineer}} </p>
         </div>
       </swiper-slide>
-      <swiper-slide>
-        <img src="//img.zcool.cn/community/0194145d916b79a8012060beffbd08.jpg@1280w_1l_2o_100sh.jpg" width="100%" height="150px">
-      </swiper-slide>
-      <swiper-slide>
-        <img src="//img.zcool.cn/community/01e6d45d916802a801211d5350a307.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="150px">
-      </swiper-slide>
-      <swiper-slide>
-        <img src="//img.zcool.cn/community/01351e5d916802a8012060be6512ef.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="150px">
-      </swiper-slide>
-      <swiper-slide>
-        <img src="//img.zcool.cn/community/0182495d916802a801211d53a10bc4.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="150px">
-      </swiper-slide>
-      <!-- <div class="swiper-pagination" slot="pagination"></div> -->
     </swiper>
     <div class="zero">
         <el-input v-model="input" placeholder="填写手机内容" class="input"></el-input>
@@ -34,6 +21,9 @@
 import headline from '../../../public/title'
 export default {
   name: 'DesignTeam',
+  props: {
+    team: Array
+  },
   components: {
     headline
   },

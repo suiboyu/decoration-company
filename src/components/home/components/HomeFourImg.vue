@@ -1,23 +1,17 @@
 <template>
   <div class="content">
-      <div class="quarter-div">
-        <img src="//img.zcool.cn/community/01fe045d916fcba801211d5370bf60.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="116px">
-      </div>
-      <div class="quarter-div">
-        <img src="//img.zcool.cn/community/0180cb5d916fc9a8012060be2f8a3b.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="116px">
-      </div>
-      <div class="quarter-div">
-        <img src="//img.zcool.cn/community/01a7a25d916fcba801211d53053579.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="116px">
-      </div>
-      <div class="quarter-div">
-        <img src="//img.zcool.cn/community/01fe045d916fcba801211d5370bf60.jpg@1280w_1l_2o_100sh.jpg" alt="" width="100%" height="116px">
+      <div class="quarter-div" v-for="list in fourimg" :key="list.id">
+        <img :src="list.imgurl" width="100%" height="116px">
       </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HomeFourImg'
+  name: 'HomeFourImg',
+  props: {
+    fourimg: Array
+  }
 }
 </script>
 

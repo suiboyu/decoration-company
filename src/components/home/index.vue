@@ -1,13 +1,16 @@
 <template>
   <div>
-   <HomeSwiper></HomeSwiper>
+   <HomeSwiper :swiper="HomeSwiper"></HomeSwiper>
    <HomeColumn :column="HomeColumn"></HomeColumn>
-   <HomeFourImg></HomeFourImg>
+   <HomeFourImg :fourimg="HomeFourImg"></HomeFourImg>
    <HomeCheaper></HomeCheaper>
-   <DesignSketch></DesignSketch>
-   <DesignTeam></DesignTeam>
-   <HomeFlow></HomeFlow>
-   <HomeStory></HomeStory>
+   <DesignSketch
+     :sketch="DesignSketchImg"
+     :icon="DesignSketchIcon"
+   ></DesignSketch>
+   <DesignTeam :team="DesignTeam"></DesignTeam>
+   <HomeFlow :flow="HomeFlow"></HomeFlow>
+   <HomeStory :story="HomeStory"></HomeStory>
    <HomeHonor></HomeHonor>
   </div>
 </template>
@@ -38,7 +41,14 @@ export default {
   },
   data () {
     return {
-      HomeColumn: []
+      HomeColumn: [],
+      HomeSwiper: [],
+      HomeFourImg: [],
+      DesignSketchImg: [],
+      DesignSketchIcon: [],
+      DesignTeam: [],
+      HomeFlow: [],
+      HomeStory: []
     }
   },
   mounted () {
@@ -54,6 +64,13 @@ export default {
       if (res.ret && res.data) {
         const data = res.data
         this.HomeColumn = data.HomeColumn
+        this.HomeSwiper = data.HomeSwiper
+        this.HomeFourImg = data.HomeFourImg
+        this.DesignSketchImg = data.DesignSketchImg
+        this.DesignSketchIcon = data.DesignSketchIcon
+        this.DesignTeam = data.DesignTeam
+        this.HomeFlow = data.HomeFlow
+        this.HomeStory = data.HomeStory
       }
     }
   }
