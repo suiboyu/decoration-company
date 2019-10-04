@@ -1,7 +1,8 @@
 <template>
   <div class="content">
-   <mt-header fixed title="" :style="{'background-color':isNike? 'rgba(0, 0, 0, 0.1)': ' #252525'  }">
+   <mt-header fixed :title="title" :style="{'background-color':isNike? 'rgba(0, 0, 0, 0.1)': ' #252525'  }">
       <router-link to="/" slot="left">
+         <mt-button icon="back"></mt-button>
       </router-link>
       <mt-button slot="right">
           <span>导航</span>
@@ -13,9 +14,10 @@
 
 <script>
 export default {
-  name: 'HomeHeader',
+  name: 'Header',
   props: {
-    isNike: Boolean
+    isNike: Boolean,
+    title: String
   }
 }
 </script>

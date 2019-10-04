@@ -13,41 +13,6 @@
                "imgurl": "//img.zcool.cn/community/01562d5d916802a8012060bef16922.jpg@1280w_1l_2o_100sh.jpg"
             }
          ],
-        "HomeColumn": [
-            {
-               "id": 1,
-               "iconfont": "\ue68c" ,
-               "title": "免费报价"
-            }, {
-                "id": 2,
-                "iconfont": "\ue6db" ,
-                "title": "免费设计"
-            }, {
-               "id": 3,
-               "iconfont": "\ue61e" ,
-               "title": "效果图"
-            }, {
-               "id": 4,
-               "iconfont": "\ue60d" ,
-               "title": "参观工地"
-            }, {
-               "id": 5,
-               "iconfont": "\ue68a" ,
-               "title": "设计团队"
-            }, {
-               "id": 6,
-               "iconfont": "\ue600" ,
-               "title": "德系精工"
-            }, {
-               "id": 7,
-               "iconfont": "\ue602" ,
-               "title": "实景工地"
-            }, {
-               "id": 8,
-               "iconfont": "\ue64f" ,
-               "title": "关于我们"
-            }
-        ],
         "HomeFourImg": [
             {
                "id": 1,

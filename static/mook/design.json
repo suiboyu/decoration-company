@@ -1,0 +1,31 @@
+{
+    "ret": true,
+    "data": {
+        "Designcards": [
+            {
+              "id": 1,
+              "imgurl": "//img.zcool.cn/community/01eb1c5d894fc8a801211d53669799.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+              "id": 2,
+              "imgurl": "//img.zcool.cn/community/01954b5d894fc9a8012060be0131af.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+              "id": 3,
+              "imgurl": "//img.zcool.cn/community/011c235d894fcaa801211d53cdc8cc.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+              "id": 4,
+              "imgurl": "//img.zcool.cn/community/013cb15d894fcaa8012060be829fc5.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+              "id": 5,
+              "imgurl": "//img.zcool.cn/community/012a1f5d894fcba801211d53846f10.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+              "id": 6,
+              "imgurl": "//img.zcool.cn/community/0153615d894fcea8012060be5902ad.jpg@1280w_1l_2o_100sh.jpg"
+            }
+        ],
+        "name": "水清花都二期",
+        "sty": "现代简约",
+        "house": "三室两厅",
+        "area": "87",
+        "mottom": "愿你接受不完美的自己，接受生活中的琐碎和平凡被过去，现在，未来而束缚，常保持内心的欢喜与丰富。"
+    }
+}

@@ -1,7 +1,8 @@
 <template>
   <div>
+   <Header class="header" :isNike="false"></Header>
    <HomeSwiper :swiper="HomeSwiper"></HomeSwiper>
-   <HomeColumn :column="HomeColumn"></HomeColumn>
+   <HomeColumn></HomeColumn>
    <HomeFourImg :fourimg="HomeFourImg"></HomeFourImg>
    <HomeCheaper></HomeCheaper>
    <DesignSketch
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+import Header from '../../public/header'
 import HomeSwiper from './components/HomeSwiper'
 import HomeColumn from './components/HomeColumn'
 import HomeFourImg from './components/HomeFourImg'
@@ -29,6 +31,7 @@ import axios from 'axios'
 export default {
   name: 'home',
   components: {
+    Header,
     HomeSwiper,
     HomeColumn,
     HomeFourImg,
@@ -41,7 +44,6 @@ export default {
   },
   data () {
     return {
-      HomeColumn: [],
       HomeSwiper: [],
       HomeFourImg: [],
       DesignSketchImg: [],
@@ -63,7 +65,6 @@ export default {
       res = res.data
       if (res.ret && res.data) {
         const data = res.data
-        this.HomeColumn = data.HomeColumn
         this.HomeSwiper = data.HomeSwiper
         this.HomeFourImg = data.HomeFourImg
         this.DesignSketchImg = data.DesignSketchImg
