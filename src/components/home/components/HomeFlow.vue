@@ -38,11 +38,7 @@ export default {
         .mt-tab-item {
             color:#171717;
             .circle {
-                width: 35px;
-                height: 35px;
-                border-radius: 50%;
-                background-color: #c1a269;
-                margin: 4px auto;
+                @include circle(35px,#c1a269,4px);
                 position: relative;
                 .iconfont {
                     display: block;

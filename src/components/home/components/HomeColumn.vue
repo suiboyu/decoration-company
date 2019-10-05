@@ -16,7 +16,7 @@
         <span class="iconfont">&#xe60d;</span>
         <span class="title">参观工地</span>
     </router-link>
-    <router-link class="item" tag="div" to="/">
+    <router-link class="item" tag="div" to="/team/index">
         <span class="iconfont">&#xe68a;</span>
         <span class="title">设计团队</span>
     </router-link>

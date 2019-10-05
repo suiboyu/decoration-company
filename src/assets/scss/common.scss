@@ -16,3 +16,12 @@
     border: 1px solid #ddd;
     box-sizing: border-box;
 }
+
+@mixin circle($width,$bgcolor,$top) {
+    width: $width;
+    height: $width;
+    background-color: $bgcolor;
+    margin: $top auto;
+    border-radius: 50%;
+    overflow: hidden;
+}

@@ -87,17 +87,10 @@ export default {
     .mt-tabbar {
         width: 100%;
         height: 70px;
-        // background-color: red;
         .mt-tab-item {
-            // background-color: green;
             color:#fedd11;
             .circle {
-                width: 36px;
-                height: 36px;
-                border-radius: 50%;
-                background-color: #faefaf;
-                margin: 4px auto;
-                overflow: hidden;
+                @include circle(36px,#faefaf,4px);
                 .iconfont {
                     display: block;
                     font-size: 26px;

@@ -1,0 +1,92 @@
+{
+    "ret": true,
+    "data": {
+        "TeamPeople": [
+            {
+                "id": 1,
+                "name": "徐淑仪",
+                "designer": "首席设计师",
+                "year": "8",
+                "head": "https://img.zcool.cn/community/01e7f65d89d468a801211d538cf15f.jpg@1280w_1l_2o_100sh.jpg",
+                "desc": "有一种设计理念叫做十多个合法的国防生的环境发生的红包",
+                "imgs": [
+                    {
+                        "id": 1,
+                        "imgurl": "https://img.zcool.cn/community/01fd6d5c39d602a80121fbb0daaba1.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 2,
+                        "imgurl": "https://img.zcool.cn/community/01581d5d8a0b55a8012060bea9b0fa.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 3,
+                        "imgurl": "https://img.zcool.cn/community/0169c25d8a0b55a801211d5395a84b.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 4,
+                        "imgurl": "https://img.zcool.cn/community/01b00b5d8a0b54a8012060be193a2f.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 5,
+                        "imgurl": "https://img.zcool.cn/community/015f3d5d8a0b58a801211d5329dc35.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 6,
+                        "imgurl": "https://img.zcool.cn/community/01cb505d8a0b53a801211d534eb237.jpg@1280w_1l_2o_100sh.jpg"
+                    }
+                ]
+            }, {
+                "id": 2,
+                "name": "刘舒",
+                "designer": "首席设计师",
+                "year": "8",
+                "head": "https://img.zcool.cn/community/01790956e3c6b932f875520f124135.jpg@1280w_1l_0o_100sh.jpg",
+                "desc": "有一种设计理念叫做遇见你是我的幸运",
+                "imgs": [
+                    {
+                        "id": 1,
+                        "imgurl": "https://img.zcool.cn/community/01fd6d5c39d602a80121fbb0daaba1.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 2,
+                        "imgurl": "https://img.zcool.cn/community/01581d5d8a0b55a8012060bea9b0fa.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 3,
+                        "imgurl": "https://img.zcool.cn/community/0169c25d8a0b55a801211d5395a84b.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 4,
+                        "imgurl": "https://img.zcool.cn/community/01b00b5d8a0b54a8012060be193a2f.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 5,
+                        "imgurl": "https://img.zcool.cn/community/015f3d5d8a0b58a801211d5329dc35.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 6,
+                        "imgurl": "https://img.zcool.cn/community/01cb505d8a0b53a801211d534eb237.jpg@1280w_1l_2o_100sh.jpg"
+                    }
+                ]
+            }, {
+                "id": 3,
+                "name": "寒寒",
+                "designer": "首席设计师",
+                "year": "10",
+                "head": "https://img.zcool.cn/community/01f8d956e3c6b16ac72531cb960d12.jpg@1280w_1l_2o_100sh.jpg",
+                "desc": "有一种设计理念叫做我的设计我做主",
+                "imgs": [
+                    {
+                        "id": 1,
+                        "imgurl": "https://img.zcool.cn/community/01fd6d5c39d602a80121fbb0daaba1.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 2,
+                        "imgurl": "https://img.zcool.cn/community/01581d5d8a0b55a8012060bea9b0fa.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 3,
+                        "imgurl": "https://img.zcool.cn/community/0169c25d8a0b55a801211d5395a84b.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 4,
+                        "imgurl": "https://img.zcool.cn/community/01b00b5d8a0b54a8012060be193a2f.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 5,
+                        "imgurl": "https://img.zcool.cn/community/015f3d5d8a0b58a801211d5329dc35.jpg@1280w_1l_2o_100sh.jpg"
+                    }, {
+                        "id": 6,
+                        "imgurl": "https://img.zcool.cn/community/01cb505d8a0b53a801211d534eb237.jpg@1280w_1l_2o_100sh.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 <template>
   <div>
-   <Header class="header" :isNike="false"></Header>
+   <Header :isNike="false"></Header>
    <HomeSwiper :swiper="HomeSwiper"></HomeSwiper>
    <HomeColumn></HomeColumn>
    <HomeFourImg :fourimg="HomeFourImg"></HomeFourImg>

@@ -123,12 +123,8 @@ export default {
       height: 100px;
       background-color: #e2e4e3;
       .circle {
-        width: 60px;
-        height: 60px;
-        background-color: #e05656;
-        margin: 20px auto;
-        border-radius: 50%;
         color: #fff;
+        @include circle(60px,#e05656,20px);
         span {
           display: block;
           text-align: center;
