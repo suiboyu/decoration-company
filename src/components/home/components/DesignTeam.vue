@@ -4,10 +4,10 @@
    <swiper :options="swiperOption">
       <swiper-slide class="slide" v-for="list in team" :key="list.id">
         <img :src="list.imgurl" width="100%" height="150px">
-        <div class="bottom">
+        <router-link tag="div" class="bottom" :to="'/person/' + list.id">
             <p> {{list.name}} </p>
             <p> {{list.engineer}} </p>
-        </div>
+        </router-link>
       </swiper-slide>
     </swiper>
     <div class="zero">

@@ -1,0 +1,74 @@
+{
+    "ret": true,
+    "data": {
+       "PersonImg": "https://img.zcool.cn/community/014a7f5d8a0b57a8012060be37ea94.jpg@1280w_1l_2o_100sh.jpg",
+       "PersonSynopsis": [
+            {
+                "id": 1,
+                "iconfont": "\ue603",
+                "name": "擅长风格",
+                "desc": "现代简约，美式风格，日式风格"
+            }, {
+                "id": 2,
+                "iconfont": "\ue612",
+                "name": "毕业院校",
+                "desc": "中央美术学院"
+            }, {
+                "id": 3,
+                "iconfont": "\ue608",
+                "name": "工作时间",
+                "desc": "8年"
+            }, {
+                "id": 4,
+                "iconfont": "\ue6a0",
+                "name": "设计理念",
+                "desc": "凡事用心，设计似一种新的态度理念，还原设计最本真的感觉"
+            }, {
+                "id": 5,
+                "iconfont": "\ue609",
+                "name": "个人简介",
+                "desc": "中央美术学院现代简约，美式风格，日式风格现代简约，美式风格，日式风格现代简约，美式风格，日式风格现代简约，美式风格，日式风格现代简约，美式风格，日式风格现代简约，美式风格，日式风格现代简约，美式风格，日式风格"
+            }
+       ],
+       "PersonMssion": [
+            {
+                "id": 1,
+                "imgurl": "https://img.zcool.cn/community/014a205c655776a801203d22013cad.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+                "id": 2,
+                "imgurl": "https://img.zcool.cn/community/01fd6d5c39d602a80121fbb0daaba1.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+                "id": 3,
+                "imgurl": "https://img.zcool.cn/community/0142dc5c1393d4a8012092520ca444.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+                "id": 4,
+                "imgurl": "https://img.zcool.cn/community/01ba395c1393d3a801209252620442.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+                "id": 5,
+                "imgurl": "https://img.zcool.cn/community/0181ff5c1393d2a801209252637e07.jpg@1280w_1l_2o_100sh.jpg"
+            }, {
+                "id": 6,
+                "imgurl": "https://img.zcool.cn/community/01e7165c1393d2a80121ab5da8c336.jpg@1280w_1l_2o_100sh.jpg"
+            }
+       ],
+       "PersonRecommend": [
+            {
+                "id": 1,
+                "imgurl": "https://img.zcool.cn/community/01eb30561f65556ac7255b1494b30d.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "栀落鸢影"
+            }, {
+                "id": 2,
+                "imgurl": "https://img.zcool.cn/community/01b35e56e3c6706ac72531cb65f2e5.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "墨月遥殇"
+            }, {
+                "id": 3,
+                "imgurl": "https://img.zcool.cn/community/015f3d5d8a0b58a801211d5329dc35.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "沐颜"
+            }, {
+                "id": 4,
+                "imgurl": "https://img.zcool.cn/community/01cb505d8a0b53a801211d534eb237.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "倾心"
+            }
+       ]
+    }
+}
