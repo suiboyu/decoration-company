@@ -25,3 +25,12 @@
     border-radius: 50%;
     overflow: hidden;
 }
+
+@mixin translucence($height) {
+    @include panel($height);
+    width: 95%;
+    position: relative;
+    top: -35px;
+    left: 9px;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), #f1f1f1);
+}

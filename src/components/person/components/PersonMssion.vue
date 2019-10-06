@@ -3,7 +3,10 @@
     <h3>代表作品</h3>
     <swiper :options="swiperOption">
         <swiper-slide class="swiper-slide" v-for="list in mssion" :key="list.id">
-            <img :src="list.imgurl" width="100%" >
+            <div class="img">
+              <img :src="list.imgurl" width="100%" >
+            </div>
+            <span>{{ list.name }}</span>
         </swiper-slide>
       </swiper>
   </div>
@@ -33,7 +36,7 @@ export default {
 <style lang="css" scoped>
 .swiper-slide {
     /* width: 70%; */
-    height: 160px;
+    height: 190px;
     /* background-color: red; */
 }
 </style>
@@ -41,7 +44,7 @@ export default {
 <style lang="scss" scoped>
 @import "../../../assets/scss/common.scss";
 .content {
-    @include panel($height:240px);
+    @include panel($height:260px);
     width: 95%;
     margin: 0px auto;
     h3 {
@@ -50,12 +53,14 @@ export default {
         font-weight: 700;
         margin-bottom: 15px;
     }
-    .swiper-slide.swiper-slide-active {
-        span {
-          display: block;
-          text-align: center;
-          padding-top: 4px;
-       }
+    .img {
+        height: 160px;
+        overflow: hidden;
+    }
+    span {
+        display: block;
+        text-align: center;
+        padding-top: 4px;
     }
 }
 </style>

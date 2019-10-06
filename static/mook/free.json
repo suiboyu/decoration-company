@@ -1,0 +1,44 @@
+{
+    "ret": true,
+    "data": {
+        "FreeImg": "//img.zcool.cn/community/01af1c5d8824cda8012060be31631a.jpg@1280w_1l_2o_100sh.jpg",
+        "FreeMessage": [
+            {
+                "id": 1,
+                "desc": "孙先生 131----325 申请成功 1S前"
+            }, {
+                "id": 2,
+                "desc": "王女士 131----325 申请成功 10S前"
+            }, {
+                "id": 3,
+                "desc": "孙先生 131----325 申请成功 1小时前"
+            }, {
+                "id": 4,
+                "desc": "孙先生 131----325 申请成功 1天前"
+            }
+        ],
+        "FreeCase": [
+            {
+                "id": 1,
+                "imgurl": "https://img.zcool.cn/community/01abac5d8824cfa8012060be0d0cc7.jpg@1280w_1l_2o_100sh.jpg",
+                "name":"栀落鸢影"
+            }, {
+                "id": 2,
+                "imgurl": "https://img.zcool.cn/community/0155505d8824d0a801211d536c3ef5.jpg@1280w_1l_2o_100sh.jpg",
+                "name":"栀落鸢影"
+            }, {
+                "id": 3,
+                "imgurl": "https://img.zcool.cn/community/01c4395d8824d1a8012060beb0a6f4.jpg@1280w_1l_2o_100sh.jpg",
+                "name":"栀落鸢影"
+            }, {
+                "id": 4,
+                "imgurl": "https://img.zcool.cn/community/01b8015d8824d3a8012060bedded90.jpg@1280w_1l_2o_100sh.jpg",
+                "name":"栀落鸢影"
+            }, {
+                "id": 5,
+                "imgurl": "https://img.zcool.cn/community/016f525d8824d5a8012060be667b4e.jpg@1280w_1l_2o_100sh.jpg",
+                "name":"栀落鸢影"
+            }
+        ]
+    }
+}

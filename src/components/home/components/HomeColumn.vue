@@ -4,7 +4,7 @@
         <span class="iconfont">&#xe68c;</span>
         <span class="title">免费报价</span>
     </router-link>
-    <router-link class="item" tag="div" to="/">
+    <router-link class="item" tag="div" to="/free/index">
         <span class="iconfont">&#xe6db;</span>
         <span class="title">免费设计</span>
     </router-link>

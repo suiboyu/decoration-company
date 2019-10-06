@@ -20,10 +20,12 @@
         <span class="iconfont">&#xe745;</span>
         电话
       </mt-tab-item>
-      <mt-tab-item id="我的" class="mt-tab-item">
-        <span class="iconfont">&#xe603;</span>
-        免费设计
-      </mt-tab-item>
+      <router-link to="/free/index">
+        <mt-tab-item id="我的" class="mt-tab-item">
+          <span class="iconfont">&#xe603;</span>
+          免费设计
+        </mt-tab-item>
+      </router-link>
       <mt-tab-item id="我的" class="mt-tab-item">
         <span class="iconfont">&#xe609;</span>
         联系

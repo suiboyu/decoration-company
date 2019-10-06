@@ -22,12 +22,7 @@ export default {
 <style lang="scss" scoped>
 @import "../../../assets/scss/common.scss";
 .content {
-    @include panel($height:420px);
-    width: 95%;
-    position: relative;
-    top: -35px;
-    left: 9px;
-    background: linear-gradient(rgba(255, 255, 255, 0.6), #f1f1f1);
+    @include translucence($height:420px);
     h3 {
         text-align: center;
         margin-top: 20px;
@@ -61,8 +56,5 @@ export default {
         color: #fff;
         background: linear-gradient(to right, #d1b286 , #c6a272);
     }
-    // .PersonMssion {
-    //     @include panel;
-    // }
 }
 </style>

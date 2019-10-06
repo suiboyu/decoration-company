@@ -4,6 +4,7 @@ import home from '../components/home/index.vue'
 import design from '../components/design/index.vue'
 import team from '../components/team/index.vue'
 import person from '../components/person/Person.vue'
+import free from '../components/free/index.vue'
 
 Vue.use(Router)
 
@@ -25,6 +26,10 @@ export default new Router({
       path: '/Person/:id',
       name: 'person',
       component: person
+    }, {
+      path: '/free/index',
+      name: 'free',
+      component: free
     }
   ]
 })
