@@ -48,6 +48,7 @@ export default {
       if (this.input3 && this.input2) {
         this.result = this.input3 * 12556
         this.count++
+        this.input3 = ''
       }
       return this.result
     }

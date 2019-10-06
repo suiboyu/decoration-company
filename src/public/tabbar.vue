@@ -8,28 +8,41 @@
      </div>
 
     <mt-tabbar fixed class="mt-tabbar">
-      <mt-tab-item id="外卖" class="mt-tab-item">
-        <span class="iconfont">&#xe606;</span>
-        首页
-      </mt-tab-item>
-      <mt-tab-item id="订单" class="mt-tab-item">
-        <span class="iconfont">&#xe602;</span>
-        免费报价
-      </mt-tab-item>
-      <mt-tab-item id="发现" class="mt-tab-item">
-        <span class="iconfont">&#xe745;</span>
-        电话
-      </mt-tab-item>
+
+      <router-link to="/">
+        <mt-tab-item id="外卖" class="mt-tab-item">
+          <span class="iconfont">&#xe606;</span>
+          首页
+        </mt-tab-item>
+      </router-link>
+
+      <router-link to="/quoted/index">
+        <mt-tab-item id="订单" class="mt-tab-item">
+          <span class="iconfont">&#xe602;</span>
+          免费报价
+        </mt-tab-item>
+      </router-link>
+
+      <router-link to="/">
+        <mt-tab-item id="发现" class="mt-tab-item">
+          <span class="iconfont">&#xe745;</span>
+          电话
+        </mt-tab-item>
+      </router-link>
+
       <router-link to="/free/index">
         <mt-tab-item id="我的" class="mt-tab-item">
           <span class="iconfont">&#xe603;</span>
           免费设计
         </mt-tab-item>
       </router-link>
-      <mt-tab-item id="我的" class="mt-tab-item">
-        <span class="iconfont">&#xe609;</span>
-        联系
-      </mt-tab-item>
+
+      <router-link to="/">
+        <mt-tab-item id="我的" class="mt-tab-item">
+          <span class="iconfont">&#xe609;</span>
+          联系
+        </mt-tab-item>
+      </router-link>
     </mt-tabbar>
   </div>
 </template>
@@ -41,9 +54,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/common.scss";
 .mt-tabbar {
-    widows: 100%;
+    width: 100%;
     height: 47px;
+    @include flex(row);
+    justify-content: space-around;
+    background: #191919;
     .mt-tab-item {
         background: #191919;
         color: #f4f4f4;
