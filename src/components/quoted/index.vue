@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :isNike="true"></Header>
-    <QuotedImg :img="QuotedImg"></QuotedImg>
+    <ImgUrl :imgurl="QuotedImg"></ImgUrl>
     <QuotedMessage :message="QuotedMessage"></QuotedMessage>
     <QuotedCase :mssion="QuotedCase"></QuotedCase>
   </div>
@@ -9,17 +9,17 @@
 
 <script>
 import Header from '../../public/header'
-import QuotedImg from './components/QuotedImg'
 import QuotedMessage from './components/QuotedMessage'
 import QuotedCase from './components/QuotedCase'
+import ImgUrl from '../../public/img'
 import axios from 'axios'
 export default {
   name: 'Quoted',
   components: {
     Header,
-    QuotedImg,
     QuotedMessage,
-    QuotedCase
+    QuotedCase,
+    ImgUrl
   },
   data () {
     return {

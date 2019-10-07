@@ -7,6 +7,7 @@ import person from '../components/person/Person.vue'
 import free from '../components/free/index.vue'
 import quoted from '../components/quoted/index.vue'
 import about from '../components/about/index.vue'
+import contact from '../components/contact/index.vue'
 
 Vue.use(Router)
 
@@ -40,6 +41,10 @@ export default new Router({
       path: '/about/index',
       name: 'about',
       component: about
+    }, {
+      path: '/contact/index',
+      name: 'contact',
+      component: contact
     }
   ]
 })

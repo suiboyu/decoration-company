@@ -37,7 +37,7 @@
         </mt-tab-item>
       </router-link>
 
-      <router-link to="/">
+      <router-link to="/contact/index">
         <mt-tab-item id="我的" class="mt-tab-item">
           <span class="iconfont">&#xe609;</span>
           联系

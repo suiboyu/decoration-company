@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :isNike="true"></Header>
-    <FreeImg :img="FreeImg"></FreeImg>
+    <ImgUrl :imgurl="FreeImg"></ImgUrl>
     <FreeMessage :message="FreeMessage"></FreeMessage>
     <FreeCase :mssion="FreeCase"></FreeCase>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import Header from '../../public/header'
-import FreeImg from './components/FreeImg'
+import ImgUrl from '../../public/img'
 import FreeMessage from './components/FreeMessage'
 import FreeCase from './components/FreeCase'
 import axios from 'axios'
@@ -17,7 +17,7 @@ export default {
   name: 'free',
   components: {
     Header,
-    FreeImg,
+    ImgUrl,
     FreeMessage,
     FreeCase
   },

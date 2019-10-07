@@ -1,22 +1,22 @@
 <template>
   <div class="content">
-    <img :src="img" alt="" width="100%">
+    <img :src="imgurl" alt="" width="100%">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'QuotedImg',
+  name: 'ImgUrl',
   props: {
-    img: String
+    imgurl: String
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import "../../../assets/scss/common.scss";
+@import "../assets/scss/common.scss";
 .content {
-    @include panel($height:190px,$margin:1px);
+    @include panel($height:206px,$margin:1px);
     position: relative;
     overflow: hidden;
 }

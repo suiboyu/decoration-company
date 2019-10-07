@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :isNike="true"></Header>
-    <AboutImg :print="print"></AboutImg>
+    <ImgUrl :imgurl="print"></ImgUrl>
     <AboutIntroduce :img="img" :desc="desc" :photo="photo" :word="word"></AboutIntroduce>
     <AboutCompany :block="block" :advantage="advantage" :awards="awards"></AboutCompany>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import Header from '../../public/header'
-import AboutImg from './components/AboutImg'
+import ImgUrl from '../../public/img'
 import AboutIntroduce from './components/AboutIntroduce'
 import AboutCompany from './components/AboutCompany'
 import axios from 'axios'
@@ -17,7 +17,7 @@ export default {
   name: 'about',
   components: {
     Header,
-    AboutImg,
+    ImgUrl,
     AboutIntroduce,
     AboutCompany
   },

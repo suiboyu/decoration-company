@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header :isNike="true"></Header>
-    <PersonImg :img="PersonImg"></PersonImg>
+    <ImgUrl :imgurl="PersonImg"></ImgUrl>
     <PersonSynopsis :synopsis="PersonSynopsis"></PersonSynopsis>
     <PersonMssion :mssion="PersonMssion"></PersonMssion>
     <PersonRecommend :recommend="PersonRecommend"></PersonRecommend>
@@ -10,7 +10,7 @@
 
 <script>
 import Header from '../../public/header'
-import PersonImg from './components/PersonImg'
+import ImgUrl from '../../public/img'
 import PersonSynopsis from './components/PersonSynopsis'
 import PersonMssion from './components/PersonMssion'
 import PersonRecommend from './components/PersonRecommend'
@@ -19,7 +19,7 @@ export default {
   name: 'Person',
   components: {
     Header,
-    PersonImg,
+    ImgUrl,
     PersonSynopsis,
     PersonMssion,
     PersonRecommend
