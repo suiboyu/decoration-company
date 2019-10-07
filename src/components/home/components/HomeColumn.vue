@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <router-link class="item" tag="div" to="/">
+    <router-link class="item" tag="div" to="/quoted/index">
         <span class="iconfont">&#xe68c;</span>
         <span class="title">免费报价</span>
     </router-link>
@@ -28,7 +28,7 @@
         <span class="iconfont">&#xe602;</span>
         <span class="title">实景工地</span>
     </router-link>
-    <router-link class="item" tag="div" to="/">
+    <router-link class="item" tag="div" to="/about/index">
         <span class="iconfont">&#xe64f;</span>
         <span class="title">关于我们</span>
     </router-link>

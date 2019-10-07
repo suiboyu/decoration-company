@@ -6,6 +6,7 @@ import team from '../components/team/index.vue'
 import person from '../components/person/Person.vue'
 import free from '../components/free/index.vue'
 import quoted from '../components/quoted/index.vue'
+import about from '../components/about/index.vue'
 
 Vue.use(Router)
 
@@ -35,6 +36,10 @@ export default new Router({
       path: '/quoted/index',
       name: 'quoted',
       component: quoted
+    }, {
+      path: '/about/index',
+      name: 'about',
+      component: about
     }
   ]
 })

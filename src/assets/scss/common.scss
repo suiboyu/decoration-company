@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 
-@mixin circle($width,$bgcolor,$top) {
+@mixin circle($width,$bgcolor:#fff,$top:1px) {
     width: $width;
     height: $width;
     background-color: $bgcolor;
