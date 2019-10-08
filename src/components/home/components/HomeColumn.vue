@@ -24,7 +24,7 @@
         <span class="iconfont">&#xe600;</span>
         <span class="title">德系精工</span>
     </router-link>
-    <router-link class="item" tag="div" to="/">
+    <router-link class="item" tag="div" to="/building/index">
         <span class="iconfont">&#xe602;</span>
         <span class="title">实景工地</span>
     </router-link>
