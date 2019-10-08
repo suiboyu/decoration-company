@@ -20,7 +20,7 @@
         <span class="iconfont">&#xe68a;</span>
         <span class="title">设计团队</span>
     </router-link>
-    <router-link class="item" tag="div" to="/">
+    <router-link class="item" tag="div" to="/germany/index">
         <span class="iconfont">&#xe600;</span>
         <span class="title">德系精工</span>
     </router-link>

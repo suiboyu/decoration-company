@@ -1,0 +1,72 @@
+{
+    "ret": true,
+    "data": {
+        "imgs": "https://img.zcool.cn/community/01af1c5d8824cda8012060be31631a.jpg@1280w_1l_2o_100sh.jpg",
+        "GermanyMain": [
+            {
+                "id": 1,
+                "imgurl": "https://img.zcool.cn/community/0194ef5d8dc989a8012060beb24d79.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 2,
+                "imgurl": "https://img.zcool.cn/community/01378f5d8dc98ba8012060be35827d.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 3,
+                "imgurl": "https://img.zcool.cn/community/0110f95d8dc98da801211d537970af.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 4,
+                "imgurl": "https://img.zcool.cn/community/01f56e5d88742ba801211d5325f340.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 5,
+                "imgurl": "https://img.zcool.cn/community/01f56e5d88742ba801211d5325f340.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 6,
+                "imgurl": "https://img.zcool.cn/community/01f7ec5d88742ca8012060beac6bd3.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }
+        ],
+        "GermanyAssist": [
+            {
+                "id": 1,
+                "imgurl": "https://img.zcool.cn/community/01ebdf5d88742fa8012060beb3cae7.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 2,
+                "imgurl": "https://img.zcool.cn/community/01f56e5d88742ba801211d5325f340.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 3,
+                "imgurl": "https://img.zcool.cn/community/01f56e5d88742ba801211d5325f340.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 4,
+                "imgurl": "https://img.zcool.cn/community/01f56e5d88742ba801211d5325f340.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 5,
+                "imgurl": "https://img.zcool.cn/community/01d50e5d887430a801211d539cb25e.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }, {
+                "id": 6,
+                "imgurl": "https://img.zcool.cn/community/01f56e5d88742ba801211d5325f340.jpg@1280w_1l_2o_100sh.jpg",
+                "name": "凯尔蒂尼整体吊顶",
+                "desc": "产地：北欧"
+            }
+        ]
+    }
+}

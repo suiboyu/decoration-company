@@ -10,6 +10,7 @@ import about from '../components/about/index.vue'
 import contact from '../components/contact/index.vue'
 import building from '../components/building/index.vue'
 import live from '../components/live/index.vue'
+import germany from '../components/germany/index.vue'
 
 Vue.use(Router)
 
@@ -55,6 +56,10 @@ export default new Router({
       path: '/live/index',
       name: 'live',
       component: live
+    }, {
+      path: '/germany/index',
+      name: 'germany',
+      component: germany
     }
   ]
 })
