@@ -9,6 +9,7 @@ import quoted from '../components/quoted/index.vue'
 import about from '../components/about/index.vue'
 import contact from '../components/contact/index.vue'
 import building from '../components/building/index.vue'
+import live from '../components/live/index.vue'
 
 Vue.use(Router)
 
@@ -50,6 +51,10 @@ export default new Router({
       path: '/building/index',
       name: 'building',
       component: building
+    }, {
+      path: '/live/index',
+      name: 'live',
+      component: live
     }
   ]
 })

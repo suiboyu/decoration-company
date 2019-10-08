@@ -12,7 +12,7 @@
         <span class="iconfont">&#xe61e;</span>
         <span class="title">效果图</span>
     </router-link>
-    <router-link class="item" tag="div" to="/">
+    <router-link class="item" tag="div" to="/building/index">
         <span class="iconfont">&#xe60d;</span>
         <span class="title">参观工地</span>
     </router-link>
@@ -24,7 +24,7 @@
         <span class="iconfont">&#xe600;</span>
         <span class="title">德系精工</span>
     </router-link>
-    <router-link class="item" tag="div" to="/building/index">
+    <router-link class="item" tag="div" to="/live/index">
         <span class="iconfont">&#xe602;</span>
         <span class="title">实景工地</span>
     </router-link>

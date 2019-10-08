@@ -16,7 +16,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/common.scss";
 .content {
-    @include panel($height:206px,$margin:1px);
+    @include panel($height:190px,$margin:1px);
     position: relative;
     overflow: hidden;
 }
