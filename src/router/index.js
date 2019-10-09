@@ -11,6 +11,7 @@ import contact from '../components/contact/index.vue'
 import building from '../components/building/index.vue'
 import live from '../components/live/index.vue'
 import germany from '../components/germany/index.vue'
+import story from '../components/story/Story.vue'
 
 Vue.use(Router)
 
@@ -60,6 +61,10 @@ export default new Router({
       path: '/germany/index',
       name: 'germany',
       component: germany
+    }, {
+      path: '/Story/:id',
+      name: 'story',
+      component: story
     }
   ]
 })

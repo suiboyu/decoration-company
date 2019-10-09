@@ -57,6 +57,9 @@ export default {
     height: 100px;
     /* background-color: red; */
   }
+  a.mint-tab-item.mt-tab-item.is-selected {
+    background-color: #f3f3f3;
+  }
 </style>
 
 <style lang="scss" scoped>

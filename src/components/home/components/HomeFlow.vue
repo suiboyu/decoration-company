@@ -5,7 +5,7 @@
       <mt-tab-item class="mt-tab-item" v-for="list in flow" :key="list.id">
         <div class="circle">
           <span class="iconfont"> {{list.iconfont}} </span>
-          <i class="iconfont ">&#xe62e;</i>
+          <i class="iconfont abc">&#xe62e;</i>
         </div>
         {{ list.name }}
       </mt-tab-item>
@@ -25,6 +25,16 @@ export default {
   }
 }
 </script>
+
+<style lang="css" scoped>
+a.mint-tab-item.mt-tab-item.is-selected {
+    background-color: #f3f3f3;
+}
+.mint-tab-item-icon {
+    font-size: 24px;
+    color: red;
+}
+</style>
 
 <style lang="scss" scoped>
 @import "../../../assets/scss/common.scss";
@@ -46,10 +56,10 @@ export default {
                     line-height: 36px;
                     color: #f1feed;
                 }
-                i {
-                    // position: absolute;
-                    // left: 32px;
-                    // top: 0;
+                .abc {
+                    position: absolute;
+                    left: 32px;
+                    top: 0;
                     background-color: red;
                     color: #494949 !important;
                     display: inline-block;

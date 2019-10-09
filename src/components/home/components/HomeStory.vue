@@ -4,7 +4,9 @@
     <swiper :options="swiperOption">
         <swiper-slide class="swiper-slide" v-for="list in story" :key="list.id">
             <img :src="list.imgurl" width="100%" height="180px">
-            <p> {{list.desc}} </p>
+            <router-link :to=" '/story/' + list.id">
+              <p> {{list.desc}} </p>
+            </router-link>
         </swiper-slide>
       </swiper>
   </div>
@@ -60,6 +62,7 @@ export default {
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
+          color: #000;
       }
   }
 }
