@@ -1,35 +1,35 @@
 <template>
   <div class="content">
     <router-link class="item" tag="div" to="/quoted/index">
-        <span class="iconfont">&#xe68c;</span>
+        <span class="iconfont">&#xe602;</span>
         <span class="title">免费报价</span>
     </router-link>
     <router-link class="item" tag="div" to="/free/index">
-        <span class="iconfont">&#xe6db;</span>
+        <span class="iconfont">&#xe603;</span>
         <span class="title">免费设计</span>
     </router-link>
     <router-link class="item" tag="div" to="/design/index">
-        <span class="iconfont">&#xe61e;</span>
+        <span class="iconfont">&#xe68c;</span>
         <span class="title">效果图</span>
     </router-link>
     <router-link class="item" tag="div" to="/building/index">
-        <span class="iconfont">&#xe60d;</span>
+        <span class="iconfont">&#xe616;</span>
         <span class="title">参观工地</span>
     </router-link>
     <router-link class="item" tag="div" to="/team/index">
-        <span class="iconfont">&#xe68a;</span>
+        <span class="iconfont">&#xe608;</span>
         <span class="title">设计团队</span>
     </router-link>
     <router-link class="item" tag="div" to="/germany/index">
-        <span class="iconfont">&#xe600;</span>
+        <span class="iconfont">&#xe61f;</span>
         <span class="title">德系精工</span>
     </router-link>
     <router-link class="item" tag="div" to="/live/index">
-        <span class="iconfont">&#xe602;</span>
+        <span class="iconfont">&#xe64f;</span>
         <span class="title">实景工地</span>
     </router-link>
     <router-link class="item" tag="div" to="/about/index">
-        <span class="iconfont">&#xe64f;</span>
+        <span class="iconfont">&#xe606;</span>
         <span class="title">关于我们</span>
     </router-link>
   </div>

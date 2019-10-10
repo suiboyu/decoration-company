@@ -3,7 +3,9 @@
    <headline :ti="'设计团队'" :tit="'金案设计  私人订制'" :titl="'MORE'"></headline>
    <swiper :options="swiperOption">
       <swiper-slide class="slide" v-for="list in team" :key="list.id">
-        <img :src="list.imgurl" width="100%" height="150px">
+        <div class="img">
+          <img :src="list.imgurl" width="100%">
+        </div>
         <router-link tag="div" class="bottom" :to="'/person/' + list.id">
             <p> {{list.name}} </p>
             <p> {{list.engineer}} </p>
@@ -65,6 +67,10 @@ export default {
 .content {
     @include panel($height:250px);
     .slide {
+        .img {
+          height: 150px;
+          overflow: hidden;
+        }
         .bottom {
             position: absolute;
             bottom: 0;

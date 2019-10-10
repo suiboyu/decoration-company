@@ -5,7 +5,7 @@
     <input type="text" v-model="input1" placeholder="您的称呼">
     <input type="text" v-model="input2" placeholder="联系方式">
     <input type="text" v-model="input3" placeholder="房屋面积">
-    <mt-button type="danger" size="large" class="mt-button">立即预约</mt-button>
+    <mt-button type="danger" size="large" class="mt-button" @click="handlemtbtn">立即预约</mt-button>
     <p v-for="list in message" :key="list.id"> {{list.desc}} </p>
     <div class="bottom"></div>
   </div>
@@ -22,6 +22,16 @@ export default {
       input1: '',
       input2: '',
       input3: ''
+    }
+  },
+  methods: {
+    handlemtbtn () {
+      this.result = this.input3 * 1232
+      this.$message({
+        message: '我们会于3天后给您答复',
+        center: true,
+        type: 'success'
+      })
     }
   }
 }

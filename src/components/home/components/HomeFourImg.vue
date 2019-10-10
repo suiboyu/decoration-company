@@ -1,7 +1,9 @@
 <template>
   <div class="content">
       <div class="quarter-div" v-for="list in fourimg" :key="list.id">
-        <img :src="list.imgurl" width="100%" height="116px">
+        <div class="img">
+          <img :src="list.imgurl" width="100%">
+        </div>
       </div>
   </div>
 </template>
@@ -32,6 +34,10 @@ export default {
       }
       &:nth-child(even) {
         padding-left: 5px;
+      }
+      .img {
+        height: 116px;
+        overflow: hidden;
       }
   }
 }

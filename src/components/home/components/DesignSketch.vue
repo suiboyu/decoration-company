@@ -3,7 +3,9 @@
    <headline :ti="'效果装饰图'" :tit="'你的装修灵感图库'" :titl="'MORE'"></headline>
    <swiper :options="swiperOption">
       <swiper-slide class="slide" v-for="list in sketch" :key="list.id">
-          <img :src="list.imgurl" alt="" width="100%" height="100px">
+          <div class="img">
+            <img :src="list.imgurl" alt="" width="100%">
+          </div>
           <div class="bottom">
             <p> {{list.name}} </p>
         </div>
@@ -69,6 +71,10 @@ export default {
     padding: 15px;
     position: relative;
     .slide {
+        .img {
+          height: 100px;
+          overflow: hidden;
+        }
         .bottom {
             position: absolute;
             bottom: 0;
